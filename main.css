@@ -1,0 +1,25 @@
+body{
+	background: black;
+}
+
+.logoProperties{
+  width: 300px;
+  height: auto;
+  float: left;
+  margin-left: 30px; 
+  margin-top: 50px;
+}
+
+
+
+.blink_img {
+  animation: blinker 2s linear infinite;
+}
+@keyframes blinker {
+  50% { opacity: 0; }
+}
+@keyframes blink {
+   50% { opacity: 0; }
+}
+
+
